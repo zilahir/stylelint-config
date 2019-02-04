@@ -13,8 +13,8 @@ The configuration is compatible with [Prettier](https://github.com/prettier/pret
 1. Install the package:
 
 ```sh
-npm install stylelint
-npm install @samuelmeuli/stylelint-config --save-exact
+npm install stylelint --save-dev
+npm install @samuelmeuli/stylelint-config --save-dev --save-exact
 ```
 
 2. Create the file `stylelintrc.yml` with the following content in your project root:
