@@ -1,0 +1,57 @@
+{
+	"name": "@samuelmeuli/stylelint-config",
+	"version": "0.1.0",
+	"description": "My Stylelint configuration",
+	"keywords": [
+		"stylelint",
+		"config",
+		"stylelint-config",
+		"css",
+		"scss",
+		"lint"
+	],
+	"main": "index.js",
+	"author": "Samuel Meuli <me@samuelmeuli.com>",
+	"repository": "github:samuelmeuli/stylelint-config",
+	"license": "MIT",
+	"scripts": {
+		"format": "prettier --ignore-path .gitignore --write",
+		"lint": "eslint"
+	},
+	"dependencies": {
+		"stylelint-config-rational-order": "^0.0.4",
+		"stylelint-config-sass-guidelines": "^5.3.0"
+	},
+	"peerDependencies": {
+		"stylelint": "^9.0.0"
+	},
+	"devDependencies": {
+		"eslint": "5.3.0",
+		"eslint-config-airbnb-base": "13.1.0",
+		"eslint-config-prettier": "^4.0.0",
+		"eslint-plugin-import": "^2.14.0",
+		"husky": "^1.1.2",
+		"lint-staged": "^8.1.0",
+		"prettier": "^1.15.3",
+		"stylelint": "^9.10.1"
+	},
+	"files": [
+		"index.js"
+	],
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.js": [
+			"yarn format",
+			"yarn lint",
+			"git add"
+		],
+		"*.{json,md,yml}": [
+			"yarn format",
+			"git add"
+		]
+	}
+}
