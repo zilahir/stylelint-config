@@ -23,7 +23,7 @@ npm install @samuelmeuli/stylelint-config --save-dev --save-exact
 extends: "@samuelmeuli/stylelint-config"
 ```
 
-1. Add the linting script(s) you need to your `package.json` file:
+3. Add the linting script(s) you need to your `package.json` file:
 
 ```json
 {
