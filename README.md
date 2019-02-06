@@ -10,14 +10,14 @@ The configuration is compatible with [Prettier](https://github.com/prettier/pret
 
 ## Usage
 
-1. Install the package:
+1. Install the required packages:
 
 ```sh
-npm install stylelint --save-dev
-npm install @samuelmeuli/stylelint-config --save-dev --save-exact
+yarn add --dev stylelint
+yarn add --dev --tilde @samuelmeuli/stylelint-config
 ```
 
-2. Create the file `stylelintrc.yml` with the following content in your project root:
+2. Create a `.stylelintrc.yml` file with the following content in your project root:
 
 ```yml
 extends: "@samuelmeuli/stylelint-config"
