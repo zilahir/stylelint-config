@@ -23,7 +23,7 @@
 		"stylelint-config-sass-guidelines": "^6.0.0"
 	},
 	"peerDependencies": {
-		"stylelint": "^9.0.0"
+		"stylelint": "^10.0.0"
 	},
 	"devDependencies": {
 		"eslint": "5.16.0",
