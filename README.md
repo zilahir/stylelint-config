@@ -13,14 +13,14 @@ The configuration is compatible with [Prettier](https://github.com/prettier/pret
 1. Install the required packages:
 
 ```sh
-yarn add --dev stylelint
-yarn add --dev --tilde @samuelmeuli/stylelint-config
+npm i --save-dev stylelint
+npm i --save-dev @zilahir/stylelint-config
 ```
 
 2. Create a `.stylelintrc.yml` file with the following content in your project root:
 
 ```yml
-extends: "@samuelmeuli/stylelint-config"
+extends: "@ziilahir/stylelint-config"
 ```
 
 3. Add the linting script(s) you need to your `package.json` file:
