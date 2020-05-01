@@ -20,6 +20,6 @@ module.exports = {
 		"font-weight-notation": "numeric",
 		"function-url-no-scheme-relative": true,
 		"selector-attribute-quotes": "always",
-		"string-quotes": "double",
+		"string-quotes": "single",
 	},
 };
