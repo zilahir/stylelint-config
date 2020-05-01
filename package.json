@@ -1,5 +1,5 @@
 {
-	"name": "@samuelmeuli/stylelint-config",
+	"name": "@zilahir/stylelint-config",
 	"version": "1.0.2",
 	"description": "My Stylelint configuration",
 	"keywords": [
@@ -11,8 +11,8 @@
 		"lint"
 	],
 	"main": "index.js",
-	"author": "Samuel Meuli <me@samuelmeuli.com>",
-	"repository": "github:samuelmeuli/stylelint-config",
+	"author": "Richard Zilahi <zilahi@gmail.com>",
+	"repository": "github:zilahir/stylelint-config",
 	"license": "MIT",
 	"scripts": {
 		"format": "prettier --ignore-path .gitignore --write",
