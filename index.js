@@ -3,7 +3,7 @@ module.exports = {
 		// Reasonable config for CSS and SCSS
 		"stylelint-config-sass-guidelines",
 		// Config for enforcing property order
-		"stylelint-config-rational-order",
+		"@zilahir/stylelint-config-rational-order",
 	],
 
 	rules: {
