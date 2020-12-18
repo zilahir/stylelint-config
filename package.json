@@ -1,6 +1,6 @@
 {
 	"name": "@zilahir/stylelint-config",
-	"version": "3.0.6",
+	"version": "3.0.7",
 	"description": "My Stylelint configuration",
 	"keywords": [
 		"stylelint",
@@ -19,7 +19,7 @@
 		"lint": "eslint"
 	},
 	"dependencies": {
-		"@zilahir/stylelint-config-rational-order": "^0.1.4",
+		"@zilahir/stylelint-config-rational-order": "^0.1.5",
 		"stylelint-config-sass-guidelines": "^6.0.0"
 	},
 	"peerDependencies": {
@@ -33,7 +33,7 @@
 		"husky": "^4.3.6",
 		"lint-staged": "^10.2.11",
 		"prettier": "^2.0.5",
-		"stylelint": "^10.0.1",
+		"stylelint": "^13.8.0",
 		"yarn": "^1.22.4"
 	},
 	"files": [
