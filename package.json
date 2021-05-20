@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"@zilahir/stylelint-config-rational-order": "^0.1.5",
-		"stylelint-config-sass-guidelines": "^6.0.0"
+		"stylelint-config-sass-guidelines": "^8.0.0"
 	},
 	"peerDependencies": {
 		"stylelint": "^10.0.0"
